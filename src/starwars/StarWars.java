@@ -2,8 +2,7 @@ package starwars;
 
 /**
  *
- * @author mrgeo
- * George Manuel Manea Ribeiro
+ * @author KermitPurpl3
  */
 
 import java.util.Scanner;
