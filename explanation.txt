@@ -1,0 +1,23 @@
+Well, this is a project I did a few months ago, it is something simple and not very difficult.
+If you study DAM or DAW you will probably do something similar so if you are lazy you can use it I don't care.
+This Java code is a game based on the Star Wars theme that uses mathematical concepts to advance through different levels. 
+I will briefly explain how each part of the code works:
+
+StarWars Class: It is the main class that contains the main method where the execution of the program begins. Within this class the methods are defined for each level of the game (level1, level2, etc.), as well as other auxiliary methods.
+
+     Level Methods: Each level method (level1, level2, etc.) represents a stage of the game. Each one has a similar structure:
+         It starts by displaying introductory text and generating random numbers based on game conditions.
+         Prompts the user for input related to a specific mathematical calculation.
+         Calculates the correct answer using a mathematical function (calcularSumatorio, calcularProductorio, calcularFactorial, etc.).
+         Compare the user's response with the correct answer and decide whether the player advances to the next level or loses the game.
+
+     Calculation Methods: There are several methods dedicated to performing specific mathematical calculations for each level of the game:
+         calcularSumatorio: Calculates the sum of the numbers from S1 to S2.
+         calcularProductorio: Calculates the producer (product of all numbers) from P1 to P2.
+         calcularFactorial: Calculates the factorial of a number N (product of all positive integers up to N).
+         esPrimo: Checks if a number P is prime.
+         calcularValor: Calculates the value that the player must enter in the last level of the game.
+
+     Result Methods: Two methods are defined to display the final result of the game:
+         lose: Called when the player loses the game.
+         win: Called when the player successfully completes all levels of the game.
